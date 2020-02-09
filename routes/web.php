@@ -33,10 +33,12 @@ Route::get('/home', 'HomeController@index')->name('home');
  */
 Route::get('/sign1','TestController@sign1');//用户登录
 
-
-
 //Route::post('/test/postman1','Api\TestController@postman1');
 
 Route::get('/test/postamanl','Api\TestController@postamanl')->middleware('fileter','check.token');
 
 Route::get('test/encrypt3','Api\TestController@encrypt3');
+
+
+
+
