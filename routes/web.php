@@ -39,6 +39,8 @@ Route::get('/test/postamanl','Api\TestController@postamanl')->middleware('filete
 
 Route::get('test/encrypt3','Api\TestController@encrypt3');
 
+Route::get('test/md5','Api\TestController@md5test');
 
+Route::get('/test/sign2','TestController@sign2');
 
 
