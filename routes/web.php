@@ -39,3 +39,4 @@ Route::get('/sign1','TestController@sign1');//用户登录
 
 Route::get('/test/postamanl','Api\TestController@postamanl')->middleware('fileter','check.token');
 
+Route::get('test/encrypt3','Api\TestController@encrypt3');
